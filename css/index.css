@@ -8,6 +8,7 @@ body {
 }
 
 .img-logo {
+    background-image: url(../img/shopping-cart);
     border-color: #9c29b7;
     border-style: dashed;
 }
@@ -59,16 +60,42 @@ header h1, .main-menu, .search, .img-logo {
 }
 
 @media (min-width: 600px) {
-    header ul {
-    display: flex;
-    flex: 1;
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .img-logo {
+        border: none;
+
+    }
+
+    .search {
+        background-color: white;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+    }
+    
+    .only-desktop {
+        display: flex;
+    }
+
+    header .second-menu {
+        list-style: none;
+        background-color: #9c29b7;
+    }
+
+    .contact-desktop {
+        display: flex;
+        justify-content: flex-end;
     }
 }
 
+
 header .banner {
     background-image: url(../img/ckc-16.jpg);
-
     background-position: center;
     background-size: cover;
-    min-height: 350px;
+    min-height: 550px;
 }
