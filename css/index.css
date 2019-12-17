@@ -1,0 +1,61 @@
+
+.form-search {
+    text-align: center;
+}
+
+.logo-search-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-search, .contact-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search {
+    width: 15em;
+}
+
+.second-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    border: black solid 0px;
+    background-color: blueviolet;
+    height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex: 0 1 100%;
+    grid-column: 1 / -1;
+}
+
+.link-nav { 
+    color: black;
+    padding: 10px;
+}
+
+.main-information, .products, .tel-map-adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: gray;
+}
+
+.about-items, .about-worker, .about-time-work {
+    display: block; 
+    text-align: center;
+}
+
+.information-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    margin: 20px;
+}
