@@ -59,3 +59,63 @@
     font-size: 14px;
     margin: 20px;
 }
+
+.time-adress-map {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 30px;
+}
+
+.reclama {
+    text-align: right;
+    margin-right: 25%;
+}
+
+.footer-nav {
+    background-color: #929292;
+    height: 20%;
+}
+
+.footer-nav > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer .link-nav {
+    border-bottom: black solid 2px;
+}
+
+@media screen and (max-width: 992px) {
+    .logo-search-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+        margin-bottom: 20px;   
+    }
+
+    .form-search {
+        margin-top: 20px;
+    
+    }
+
+    .contact-information {
+        display: none;
+    }
+
+    .information-about, .about-worker, .about-time-work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time-adress-map {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map {
+       display: none;
+    }
+}
